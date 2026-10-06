@@ -1,0 +1,5 @@
+nome = input("digite seu nome :")
+email = input("Digite seu g-mail")
+arquivo = open("7-pessoas.txt","a")
+arquivo.write(f"{nome} | {email} \n")
+arquivo.close()
